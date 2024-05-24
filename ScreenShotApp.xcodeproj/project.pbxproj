@@ -11,6 +11,7 @@
 		BA915DC22BFA8D2F0075D95F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA915DC12BFA8D2F0075D95F /* ContentView.swift */; };
 		BA915DC42BFA8D300075D95F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA915DC32BFA8D300075D95F /* Assets.xcassets */; };
 		BA915DC72BFA8D300075D95F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA915DC62BFA8D300075D95F /* Preview Assets.xcassets */; };
+		BA915DCF2BFA98280075D95F /* ScreencaptureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA915DCE2BFA98280075D95F /* ScreencaptureViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		BA915DC32BFA8D300075D95F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA915DC62BFA8D300075D95F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BA915DC82BFA8D300075D95F /* ScreenShotApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ScreenShotApp.entitlements; sourceTree = "<group>"; };
+		BA915DCE2BFA98280075D95F /* ScreencaptureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreencaptureViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				BA915DBF2BFA8D2F0075D95F /* ScreenShotAppApp.swift */,
 				BA915DC12BFA8D2F0075D95F /* ContentView.swift */,
+				BA915DCE2BFA98280075D95F /* ScreencaptureViewModel.swift */,
 				BA915DC32BFA8D300075D95F /* Assets.xcassets */,
 				BA915DC82BFA8D300075D95F /* ScreenShotApp.entitlements */,
 				BA915DC52BFA8D300075D95F /* Preview Content */,
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA915DC22BFA8D2F0075D95F /* ContentView.swift in Sources */,
+				BA915DCF2BFA98280075D95F /* ScreencaptureViewModel.swift in Sources */,
 				BA915DC02BFA8D2F0075D95F /* ScreenShotAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,6 +283,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ScreenShotApp;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -306,6 +312,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ScreenShotApp;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
